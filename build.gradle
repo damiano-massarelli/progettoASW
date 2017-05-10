@@ -1,0 +1,11 @@
+def projects = ['Bandinfo', 'BandinfoS1Genre', 'BandinfoS2Album', 'BandinfoS3Track']
+
+task copyJar(type: Copy) {
+    projects.each {
+        from it + '/build/libs'
+        into "dist"
+    }
+}   
+
+task build
+build.dependsOn copyJar

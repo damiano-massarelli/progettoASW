@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd Bandinfo3
+gradle bootRun
+cd ..

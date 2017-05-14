@@ -14,6 +14,8 @@
 ### Per accedere ai servizi:
 `http://localhost:8080/s/`...
 
+Oppure all'indirizzo `http://localhost:8080` sono presenti esempi già compilati.
+
 ### Build con gradle
 Nella cartella è presente il file `build.sh` da eseguire per effettuare il build.
 

@@ -1,9 +1,9 @@
 # Progetto ASW
 
 ## Partecipanti:
-- Bernardo Marino ()
+- Bernardo Marino (474949)
 - Damiano Massarelli (473486)
-- Simone Ceccarelli ()
+- Simone Ceccarelli (475146)
 
 # Dominio Applicativo
 ### Il servizio S fornisce tre operazioni
@@ -18,4 +18,8 @@
 Nella cartella è presente il file `build.sh` da eseguire per effettuare il build.
 
 ### Esecuzione
-Eseguire il file `run.sh` presente nella cartella.
+Il file `run.sh` permette di eseguire tutti i servizi con un unico comando (e nello stesso terminale).
+Per eseguire i servizi in modo indipendente sono presenti i relativi script (`run_s.sh`, `run_s1.sh`, ecc...).
+
+### Terminare l'esecuzione
+Se si usa `run.sh`, l'esecuzione di tutti i processi può essere fermata tramite `kill.sh`.

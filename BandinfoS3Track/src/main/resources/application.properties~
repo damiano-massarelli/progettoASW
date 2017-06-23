@@ -1,0 +1,4 @@
+spring.application.name=track
+eureka.client.serviceUrl.defaultZone: http://eureka:8761/eureka/
+
+server.port=${PORT:${SERVER_PORT:0}}

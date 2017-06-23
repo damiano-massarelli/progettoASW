@@ -1,5 +1,4 @@
-def projects = ['Bandinfo', 'BandinfoS1Genre', 'BandinfoS2Album', 'BandinfoS3Track']
-
+def projects = ['Bandinfo', 'BandinfoS1Genre', 'BandinfoS2Album', 'BandinfoS3Track', "eureka", "zuul"]
 task copyJar(type: Copy) {
     projects.each {
         from it + '/build/libs'

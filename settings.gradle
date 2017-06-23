@@ -1,1 +1,1 @@
-include "Bandinfo", "BandinfoS1Genre", "BandinfoS2Album", "BandinfoS3Track"
+include "Bandinfo", "BandinfoS1Genre", "BandinfoS2Album", "BandinfoS3Track", "eureka", "zuul"

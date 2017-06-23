@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cd Bandinfo2
-gradle bootRun
-cd ..

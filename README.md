@@ -11,6 +11,18 @@
 - `s/<band>/<album>` restituisce il genere della band e l'anno di pubblicazione dell'album.
 - `s/<band>/<album>/<canzone>` restituisce il genere della band, l'anno di pubblicazione dell'album e il numero della traccia nell'album.
 
+### Su Docker Swarm
+Per eseguire il deploy su docker swarm:
+- fare il build dei vari servizi: `./build.sh`
+- creare le immagini: `./build-all-images.sh`
+- fare il push delle immagini `./build-all-images.sh`
+- far partire i servizi `./start-bandinfo-stack/.sh`
+
+Il servizio sarà poi disponibile su [http://swarm.inf.uniroma3.it:9008/bandinfo/]
+
+# ! Nota !
+## Le seguenti istruzioni fanno riferimento alla versione precedente dei servizi, essendo il servizio adattato a docker non sono funzionanti
+
 ### Per accedere ai servizi:
 `http://localhost:8080/s/`...
 
